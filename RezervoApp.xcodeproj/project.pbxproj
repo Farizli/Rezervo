@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21FAABC629A6A20D00731BCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FAABC529A6A20D00731BCA /* AppDelegate.swift */; };
+		21FAABC829A6A20D00731BCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FAABC729A6A20D00731BCA /* SceneDelegate.swift */; };
+		21FAABCA29A6A20D00731BCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FAABC929A6A20D00731BCA /* ViewController.swift */; };
+		21FAABCD29A6A20D00731BCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21FAABCB29A6A20D00731BCA /* Main.storyboard */; };
+		21FAABCF29A6A20E00731BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21FAABCE29A6A20E00731BCA /* Assets.xcassets */; };
+		21FAABD229A6A20E00731BCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21FAABD029A6A20E00731BCA /* LaunchScreen.storyboard */; };
+		21FAABDD29A6A20F00731BCA /* RezervoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FAABDC29A6A20F00731BCA /* RezervoAppTests.swift */; };
+		21FAABE729A6A20F00731BCA /* RezervoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FAABE629A6A20F00731BCA /* RezervoAppUITests.swift */; };
+		21FAABE929A6A20F00731BCA /* RezervoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FAABE829A6A20F00731BCA /* RezervoAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21FAABD929A6A20F00731BCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21FAABBA29A6A20D00731BCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21FAABC129A6A20D00731BCA;
+			remoteInfo = RezervoApp;
+		};
+		21FAABE329A6A20F00731BCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21FAABBA29A6A20D00731BCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21FAABC129A6A20D00731BCA;
+			remoteInfo = RezervoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21FAABC229A6A20D00731BCA /* RezervoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RezervoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21FAABC529A6A20D00731BCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21FAABC729A6A20D00731BCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		21FAABC929A6A20D00731BCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21FAABCC29A6A20D00731BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21FAABCE29A6A20E00731BCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21FAABD129A6A20E00731BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21FAABD329A6A20E00731BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21FAABD829A6A20F00731BCA /* RezervoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RezervoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21FAABDC29A6A20F00731BCA /* RezervoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RezervoAppTests.swift; sourceTree = "<group>"; };
+		21FAABE229A6A20F00731BCA /* RezervoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RezervoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21FAABE629A6A20F00731BCA /* RezervoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RezervoAppUITests.swift; sourceTree = "<group>"; };
+		21FAABE829A6A20F00731BCA /* RezervoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RezervoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21FAABBF29A6A20D00731BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21FAABD529A6A20F00731BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21FAABDF29A6A20F00731BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21FAABB929A6A20D00731BCA = {
+			isa = PBXGroup;
+			children = (
+				21FAABC429A6A20D00731BCA /* RezervoApp */,
+				21FAABDB29A6A20F00731BCA /* RezervoAppTests */,
+				21FAABE529A6A20F00731BCA /* RezervoAppUITests */,
+				21FAABC329A6A20D00731BCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21FAABC329A6A20D00731BCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21FAABC229A6A20D00731BCA /* RezervoApp.app */,
+				21FAABD829A6A20F00731BCA /* RezervoAppTests.xctest */,
+				21FAABE229A6A20F00731BCA /* RezervoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21FAABC429A6A20D00731BCA /* RezervoApp */ = {
+			isa = PBXGroup;
+			children = (
+				21FAABC529A6A20D00731BCA /* AppDelegate.swift */,
+				21FAABC729A6A20D00731BCA /* SceneDelegate.swift */,
+				21FAABC929A6A20D00731BCA /* ViewController.swift */,
+				21FAABCB29A6A20D00731BCA /* Main.storyboard */,
+				21FAABCE29A6A20E00731BCA /* Assets.xcassets */,
+				21FAABD029A6A20E00731BCA /* LaunchScreen.storyboard */,
+				21FAABD329A6A20E00731BCA /* Info.plist */,
+			);
+			path = RezervoApp;
+			sourceTree = "<group>";
+		};
+		21FAABDB29A6A20F00731BCA /* RezervoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				21FAABDC29A6A20F00731BCA /* RezervoAppTests.swift */,
+			);
+			path = RezervoAppTests;
+			sourceTree = "<group>";
+		};
+		21FAABE529A6A20F00731BCA /* RezervoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21FAABE629A6A20F00731BCA /* RezervoAppUITests.swift */,
+				21FAABE829A6A20F00731BCA /* RezervoAppUITestsLaunchTests.swift */,
+			);
+			path = RezervoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21FAABC129A6A20D00731BCA /* RezervoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21FAABEC29A6A20F00731BCA /* Build configuration list for PBXNativeTarget "RezervoApp" */;
+			buildPhases = (
+				21FAABBE29A6A20D00731BCA /* Sources */,
+				21FAABBF29A6A20D00731BCA /* Frameworks */,
+				21FAABC029A6A20D00731BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RezervoApp;
+			productName = RezervoApp;
+			productReference = 21FAABC229A6A20D00731BCA /* RezervoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21FAABD729A6A20F00731BCA /* RezervoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21FAABEF29A6A20F00731BCA /* Build configuration list for PBXNativeTarget "RezervoAppTests" */;
+			buildPhases = (
+				21FAABD429A6A20F00731BCA /* Sources */,
+				21FAABD529A6A20F00731BCA /* Frameworks */,
+				21FAABD629A6A20F00731BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21FAABDA29A6A20F00731BCA /* PBXTargetDependency */,
+			);
+			name = RezervoAppTests;
+			productName = RezervoAppTests;
+			productReference = 21FAABD829A6A20F00731BCA /* RezervoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21FAABE129A6A20F00731BCA /* RezervoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21FAABF229A6A20F00731BCA /* Build configuration list for PBXNativeTarget "RezervoAppUITests" */;
+			buildPhases = (
+				21FAABDE29A6A20F00731BCA /* Sources */,
+				21FAABDF29A6A20F00731BCA /* Frameworks */,
+				21FAABE029A6A20F00731BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21FAABE429A6A20F00731BCA /* PBXTargetDependency */,
+			);
+			name = RezervoAppUITests;
+			productName = RezervoAppUITests;
+			productReference = 21FAABE229A6A20F00731BCA /* RezervoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21FAABBA29A6A20D00731BCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					21FAABC129A6A20D00731BCA = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					21FAABD729A6A20F00731BCA = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 21FAABC129A6A20D00731BCA;
+					};
+					21FAABE129A6A20F00731BCA = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 21FAABC129A6A20D00731BCA;
+					};
+				};
+			};
+			buildConfigurationList = 21FAABBD29A6A20D00731BCA /* Build configuration list for PBXProject "RezervoApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21FAABB929A6A20D00731BCA;
+			productRefGroup = 21FAABC329A6A20D00731BCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21FAABC129A6A20D00731BCA /* RezervoApp */,
+				21FAABD729A6A20F00731BCA /* RezervoAppTests */,
+				21FAABE129A6A20F00731BCA /* RezervoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21FAABC029A6A20D00731BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21FAABD229A6A20E00731BCA /* LaunchScreen.storyboard in Resources */,
+				21FAABCF29A6A20E00731BCA /* Assets.xcassets in Resources */,
+				21FAABCD29A6A20D00731BCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21FAABD629A6A20F00731BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21FAABE029A6A20F00731BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21FAABBE29A6A20D00731BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21FAABCA29A6A20D00731BCA /* ViewController.swift in Sources */,
+				21FAABC629A6A20D00731BCA /* AppDelegate.swift in Sources */,
+				21FAABC829A6A20D00731BCA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21FAABD429A6A20F00731BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21FAABDD29A6A20F00731BCA /* RezervoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21FAABDE29A6A20F00731BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21FAABE929A6A20F00731BCA /* RezervoAppUITestsLaunchTests.swift in Sources */,
+				21FAABE729A6A20F00731BCA /* RezervoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21FAABDA29A6A20F00731BCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21FAABC129A6A20D00731BCA /* RezervoApp */;
+			targetProxy = 21FAABD929A6A20F00731BCA /* PBXContainerItemProxy */;
+		};
+		21FAABE429A6A20F00731BCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21FAABC129A6A20D00731BCA /* RezervoApp */;
+			targetProxy = 21FAABE329A6A20F00731BCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21FAABCB29A6A20D00731BCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21FAABCC29A6A20D00731BCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21FAABD029A6A20E00731BCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21FAABD129A6A20E00731BCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21FAABEA29A6A20F00731BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21FAABEB29A6A20F00731BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21FAABED29A6A20F00731BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TJ46AU42BF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RezervoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rezervo-App.RezervoApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21FAABEE29A6A20F00731BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TJ46AU42BF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RezervoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rezervo-App.RezervoApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		21FAABF029A6A20F00731BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TJ46AU42BF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rezervo-App.RezervoAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RezervoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RezervoApp";
+			};
+			name = Debug;
+		};
+		21FAABF129A6A20F00731BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TJ46AU42BF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rezervo-App.RezervoAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RezervoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RezervoApp";
+			};
+			name = Release;
+		};
+		21FAABF329A6A20F00731BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TJ46AU42BF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rezervo-App.RezervoAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RezervoApp;
+			};
+			name = Debug;
+		};
+		21FAABF429A6A20F00731BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TJ46AU42BF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rezervo-App.RezervoAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RezervoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21FAABBD29A6A20D00731BCA /* Build configuration list for PBXProject "RezervoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21FAABEA29A6A20F00731BCA /* Debug */,
+				21FAABEB29A6A20F00731BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21FAABEC29A6A20F00731BCA /* Build configuration list for PBXNativeTarget "RezervoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21FAABED29A6A20F00731BCA /* Debug */,
+				21FAABEE29A6A20F00731BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21FAABEF29A6A20F00731BCA /* Build configuration list for PBXNativeTarget "RezervoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21FAABF029A6A20F00731BCA /* Debug */,
+				21FAABF129A6A20F00731BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21FAABF229A6A20F00731BCA /* Build configuration list for PBXNativeTarget "RezervoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21FAABF329A6A20F00731BCA /* Debug */,
+				21FAABF429A6A20F00731BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21FAABBA29A6A20D00731BCA /* Project object */;
+}
