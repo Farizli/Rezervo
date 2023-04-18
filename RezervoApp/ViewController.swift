@@ -9,11 +9,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var innerView: UIView! {
+        didSet {
+            
+        }
+    }
+    @IBOutlet weak var viewvv: UIView! {
+        didSet {
+//            viewvv.addInnerShadow()
+            
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
 
 }
-

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomSegmentView" customModule="RezervoApp" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionVIew" destination="oFc-KO-HVK" id="087-qg-YD6"/>
+                <outlet property="containerView" destination="Dag-0X-g2x" id="JQf-1B-rk2"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="76"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dag-0X-g2x">
+                    <rect key="frame" x="0.0" y="0.0" width="390" height="76"/>
+                    <subviews>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="oFc-KO-HVK">
+                            <rect key="frame" x="5" y="0.0" width="380" height="76"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="191-mZ-uXm">
+                                <size key="itemSize" width="128" height="128"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                        </collectionView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="oFc-KO-HVK" secondAttribute="trailing" constant="5" id="6oV-7f-g1e"/>
+                        <constraint firstItem="oFc-KO-HVK" firstAttribute="top" secondItem="Dag-0X-g2x" secondAttribute="top" id="KSW-5e-EQm"/>
+                        <constraint firstItem="oFc-KO-HVK" firstAttribute="leading" secondItem="Dag-0X-g2x" secondAttribute="leading" constant="5" id="cIb-3y-TeX"/>
+                        <constraint firstAttribute="bottom" secondItem="oFc-KO-HVK" secondAttribute="bottom" id="dgg-El-7g6"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Dag-0X-g2x" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="4hT-JX-I1v"/>
+                <constraint firstItem="Dag-0X-g2x" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Fa0-cU-5hL"/>
+                <constraint firstAttribute="trailing" secondItem="Dag-0X-g2x" secondAttribute="trailing" id="lCU-no-dZS"/>
+                <constraint firstAttribute="bottom" secondItem="Dag-0X-g2x" secondAttribute="bottom" id="tRR-yF-aVh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-237" y="-256"/>
+        </view>
+    </objects>
+</document>
